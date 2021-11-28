@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/styles.css') }}">
+    <title> {% block title %}{% endblock %} </title>
+</head>
+
+<body>
+     <div class="container">
+        <div class="header gabriola"> {% block header %}{% endblock %} </div>
+
+        <div class="columns-center">
+
+            <div class="column left">
+
+                <div class="menu-block-header">Здесь могла быть ваша реклама</div>
+
+
+            </div>
+
+            {% block content %}{% endblock %}
+
+            <div class="column right">
+                <H1 class="constantia">Автор - Ловцов Ярослав Олегович</H1>
+                <br />
+                <img class="text-image float-right" src="{{ url_for('static',filename='photo.jpg') }}" alt="">
+                <P class="about-author-item">Разработчик 1С с 2002 года.</P>
+                <P class="about-author-item">VK: <A href='https://vk.com/yariq.gunes'>Страничка автора ВКонтакте</A></P>
+                <P class="about-author-item">Телеграм: @YariqGunes</P>
+            </div>
+
+        </div>
+
+        <div class="footer">&copy; Все права защищены. Автор благодарит YouTube канал <B>"Гоша Дударь"</B> за <A href='https://www.youtube.com/watch?v=jgAVGtkk03Q&list=PL0lO_mIqDDFXiIQYjLbncE9Lb6sx8elKA'>беcплатные видеоуроки по Flask</A></div>
+
+    </div>
+</body>
+
+</html>

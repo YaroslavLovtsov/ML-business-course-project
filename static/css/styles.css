@@ -1,0 +1,131 @@
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 80px;
+    background-color: #783304;
+    color: #d8cfd1;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 28pt;
+    font-weight: 900;
+}
+
+.columns-center {
+    height: 820px;
+    display: block;
+}
+
+.footer {
+    height: 30px;
+    background-color: #582012;
+    color: #d8cfd1;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-family: "helvetica";
+}
+
+.column{
+    display: inline-block;
+    height: 780px;
+
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content{
+    width: 750px;
+    height: 780px;
+    background-color: #192a2d;
+    color: #b8cf91;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    font-family: "balthazar";
+}
+
+.scroll-overflow{
+    overflow: scroll;
+}
+
+.left{
+   width: 160px;
+    background-color: #182114;
+}
+
+.right{
+    width: 550px;
+    background-color: #0d1f13;
+    color: #ddbfc3;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu-block-header{
+
+    border: 1px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    margin-right: 2px;
+    border-radius: 10px;
+    border-color: #9789a2;
+    background-color: #473952;
+    color: #b8cf81;
+    border-width: thick;
+    font-family: "franklin gothic medium";
+}
+
+
+
+.about-author-item{
+    font-family: "consolas";
+    font-weight: 500;
+}
+
+.result-panel{
+    background-color: #645d1e;
+    width: auto;
+    height: 170px;
+    color: #b8cf81;
+    font-family: "consolas";
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #6b7248;
+    padding-top: 150px;
+    padding-left: 200px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.text-image{
+    padding-left: 15px;
+}
+
+.gabriola{
+    font-family: "GABRIOLA";
+}
+
+.constantia{
+    font-family: "CONSTANTIA";
+}

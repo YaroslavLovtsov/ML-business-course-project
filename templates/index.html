@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block header %}
+Предсказание балла ЕГЭ по математике на основе модели <a href="https://www.kaggle.com/yariqgunes/boost-notebook">бустинга</a>
+{% endblock %}
+
+{% block content %}
+            <div class="content">
+                <form class="registration-form" action="/">
+                    <h1>Данные преподавателя</h1>
+                    <p>
+                        <input class="registration-input-text" id="age" type="text" placeholder="Возраст преподавателя">
+                    </p>
+                    <p>
+                        <input class="registration-input-text" id="years_of_experience" type="text" placeholder="Стаж преподавателя">
+                    </p>
+                    <p>
+                        <input class="registration-input-text" id="lesson_price" type="text" placeholder="Стоимость урока">
+                    </p>
+                    <p>
+                        <input class="registration-input-text" id="qualification" type="text" placeholder="Квалификация">
+                    </p>
+                    Преподает физику
+                    <input id="physics" type="checkbox">
+                    <br>
+                    Преподает химию
+                    <input id="chemistry" type="checkbox">
+                    <br>
+                    Преподает биологию
+                    <input id="biology" type="checkbox">
+                    <br>
+                    Преподает английский
+                    <input id="english" type="checkbox">
+                    <br>
+                    Преподает географию
+                    <input id="geography" type="checkbox">
+                    <br>
+                    Преподает историю
+                    <input id="history" type="checkbox">
+                    <br>
+                    <p>
+                        <input type="submit" value="Предсказать результат">
+                    </p>
+                </form>
+                <div class="result-panel"> В конечном итоге появилась проблема с установкой sklearn</div>
+            </div>
+{% endblock %}
